@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fps {
+    position: fixed;
+    color: greenyellow;
+}
+
+.work_area > * {
+    position: absolute;
+}
+
+.moving_element_tag {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.time_display {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    color: yellow;
+    background: black;
+    font-family: "Consolas";
+}
